@@ -9,6 +9,7 @@
 body{
     width: 80%;
     margin: auto;
+    padding: 20px;
 }
 
 /* header */
@@ -16,6 +17,7 @@ body{
 header{
     height: 100px;
     background-color: #e579e6;
+    margin-bottom: 20px;
 }
 
 
@@ -26,6 +28,7 @@ header{
 .jumbotron{
     height: 300px;  /* da togliere */
     background-color: #e1d67a;   /* da togliere */
+    margin-bottom: 20px;
 }
 
 
@@ -34,21 +37,38 @@ header{
 .container{
     height: 500px;    /* da togliere */
     background-color: #0087ff;     /* da togliere */
+    
 }
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* parte alta contenitore */
 
 .leadership{
     height: 20%;
     background-color: #abcfe7;
 }
 
+/* parte bassa contenitore */
+
 .float-sx{
     float: left;
+}
+
+.margini{
+    margin: 10% 0;
 }
 
 .blocco-sx, .blocco-dx{
     height: 80%;
     width: 25%;
     background-color: #abcfe7;
+
+
 }
 
 .blocco-center{
@@ -64,4 +84,5 @@ header{
 footer{
     height: 50px;
     background-color: #8801fe;
+    margin-top: 10px;
 }
