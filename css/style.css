@@ -41,6 +41,21 @@ header{
     background-color: #abcfe7;
 }
 
+.float-sx{
+    float: left;
+}
+
+.blocco-sx, .blocco-dx{
+    height: 80%;
+    width: 25%;
+    background-color: #abcfe7;
+}
+
+.blocco-center{
+    height: 80%;
+    width: 50%;
+    background-color: #abcfe7;
+}
 
 
 
