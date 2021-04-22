@@ -14,6 +14,20 @@ header{
 }
 
 
+/* main */
+
+.jumbotron{
+    height: 300px;  /* da togliere */
+    background-color: #e1d67a;   /* da togliere */
+}
+
+
+.container{
+    height: 500px;
+    background-color: #0087ff;
+}
+
+
 
 
 /* footer */
