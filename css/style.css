@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 80%;
+    margin: auto;
+}
+
 /* header */
 
 header{
@@ -16,15 +21,24 @@ header{
 
 /* main */
 
+/* jumbotron */
+
 .jumbotron{
     height: 300px;  /* da togliere */
     background-color: #e1d67a;   /* da togliere */
 }
 
 
+/* contenitore degli lementi float */
+
 .container{
-    height: 500px;
-    background-color: #0087ff;
+    height: 500px;    /* da togliere */
+    background-color: #0087ff;     /* da togliere */
+}
+
+.leadership{
+    height: 20%;
+    background-color: #abcfe7;
 }
 
 
